@@ -1,0 +1,55 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Prompt replay</title>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap");
+html, body { margin: 0; width: 1920px; height: 1080px; background: #0b1220; overflow: hidden; }
+.win { position: absolute; left: 110px; right: 110px; top: 80px; bottom: 80px; background: #0f172a; border: 1px solid #1f2a44; border-radius: 18px; box-shadow: 0 30px 80px rgba(0,0,0,.45); overflow: hidden; }
+.bar { height: 56px; background: #111c33; display: flex; align-items: center; padding: 0 22px; gap: 12px; border-bottom: 1px solid #1f2a44; }
+.dot { width: 15px; height: 15px; border-radius: 50%; }
+.title { color: #94a3b8; font: 600 20px "JetBrains Mono", ui-monospace, monospace; margin-left: 18px; }
+.body { padding: 34px 44px; font: 400 29px/1.5 "JetBrains Mono", ui-monospace, monospace; color: #e2e8f0; white-space: pre-wrap; }
+.prompt { color: #5eead4; font-weight: 700; }
+.user { color: #f8fafc; font-weight: 600; }
+.caret { display: inline-block; width: 15px; height: 32px; background: #5eead4; vertical-align: -5px; animation: blink 1s steps(1) infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+.out { color: #cbd5e1; }
+.ok { color: #4ade80; font-weight: 700; }
+.hl { color: #fde68a; font-weight: 700; }
+.dim { color: #64748b; }
+.line { opacity: 0; transition: opacity .25s; }
+.line.show { opacity: 1; }
+</style></head>
+<body>
+<div class="win">
+  <div class="bar"><span class="dot" style="background:#f87171"></span><span class="dot" style="background:#fbbf24"></span><span class="dot" style="background:#34d399"></span><span class="title">invoice-approval-agent</span></div>
+  <div class="body" id="body"><span class="prompt">&gt; </span><span class="user" id="typed"></span><span class="caret" id="caret"></span><div id="out"></div></div>
+</div>
+<script>
+function run() {
+const script = window.REPLAY;
+const typed = document.getElementById("typed");
+const out = document.getElementById("out");
+const caret = document.getElementById("caret");
+let i = 0;
+function type() {
+  if (i <= script.prompt.length) {
+    typed.textContent = script.prompt.slice(0, i++);
+    setTimeout(type, 1000 / (script.cps || 12));
+  } else {
+    setTimeout(showOutput, 600);
+  }
+}
+function showOutput() {
+  caret.remove();
+  out.innerHTML = "\n" + script.lines.map((l) => `<div class="line ${l.cls || "out"}">${l.html}</div>`).join("");
+  const lines = out.querySelectorAll(".line");
+  lines.forEach((el, k) => setTimeout(() => el.classList.add("show"), (script.lineDelay || 320) * k));
+}
+setTimeout(type, script.startDelay || 500);
+}
+const tag = document.createElement("script");
+tag.src = (new URLSearchParams(location.search).get("s") || "P01") + ".js";
+tag.onload = run;
+document.head.appendChild(tag);
+</script>
+</body></html>

@@ -19,7 +19,10 @@ export function UploadZone() {
     setSummary(null);
     const results: Result[] = [];
     files.sort((a, b) => a.name.localeCompare(b.name));
+    // ?pace=ms slows the UI between files so a screen recording can follow it (demo videos only).
+    const pace = Number(new URLSearchParams(window.location.search).get("pace") ?? 0);
     for (let i = 0; i < files.length; i++) {
+      if (pace > 0) await new Promise((r) => setTimeout(r, pace));
       setProgress({ done: i, total: files.length, current: files[i].name });
       const body = new FormData();
       body.append("file", files[i]);
