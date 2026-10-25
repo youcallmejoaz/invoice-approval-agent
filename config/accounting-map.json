@@ -1,0 +1,13 @@
+{
+  "_comment": "Field mapping for the Zoho Books and Xero adapters. Fill in the client's own IDs during the mapping session.",
+  "zoho": {
+    "expenseAccountId": "",
+    "taxId": "",
+    "vendors": { "V01": "", "V02": "", "V03": "", "V04": "", "V05": "", "V06": "", "V07": "", "V08": "" }
+  },
+  "xero": {
+    "expenseAccountCode": "429",
+    "taxType": "INPUT",
+    "status": "AUTHORISED"
+  }
+}

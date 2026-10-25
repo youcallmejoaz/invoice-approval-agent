@@ -1,0 +1,68 @@
+{
+  "file": "20-summit-it-solutions-SIT-7731.pdf",
+  "sha256": "046ba924a47b7731b09768de691304ecbe60dfbc726a472c872b62bc0c899fb6",
+  "simulated": true,
+  "note": "Simulated model response generated from the sample ground truth. Replace with real responses via npm run fixtures:record.",
+  "responses": {
+    "fast": {
+      "vendor_name": {
+        "value": "Summit IT Solutions",
+        "confidence": 0.97
+      },
+      "invoice_number": {
+        "value": "SIT-7731",
+        "confidence": 0.95
+      },
+      "invoice_date": {
+        "value": "2026-10-11",
+        "confidence": 0.98
+      },
+      "due_date": {
+        "value": "2026-11-10",
+        "confidence": 0.93
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.98
+      },
+      "po_number": {
+        "value": "PO-3003",
+        "confidence": 0.98
+      },
+      "subtotal": {
+        "value": 8100,
+        "confidence": 0.97
+      },
+      "tax_rate": {
+        "value": 8,
+        "confidence": 0.97
+      },
+      "tax": {
+        "value": 648,
+        "confidence": 0.94
+      },
+      "total": {
+        "value": 8748,
+        "confidence": 0.99
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "Business laptop, 14 inch",
+            "quantity": 6,
+            "unit_price": 1290,
+            "amount": 7740
+          },
+          {
+            "description": "Laptop setup and imaging",
+            "quantity": 6,
+            "unit_price": 60,
+            "amount": 360
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    "check": null
+  }
+}

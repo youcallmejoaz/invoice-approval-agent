@@ -1,0 +1,68 @@
+{
+  "file": "40-summit-it-solutions-SIT-7746.pdf",
+  "sha256": "8eb5d249119d5c40d92a1e2367adbdf63050f2fd88f2579061b5109c796946e4",
+  "simulated": true,
+  "note": "Simulated model response generated from the sample ground truth. Replace with real responses via npm run fixtures:record.",
+  "responses": {
+    "fast": {
+      "vendor_name": {
+        "value": "Summit IT Solutions",
+        "confidence": 0.96
+      },
+      "invoice_number": {
+        "value": "SIT-7746",
+        "confidence": 0.98
+      },
+      "invoice_date": {
+        "value": "2026-10-23",
+        "confidence": 0.96
+      },
+      "due_date": {
+        "value": "2026-11-22",
+        "confidence": 0.94
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.97
+      },
+      "po_number": {
+        "value": null,
+        "confidence": 0.95
+      },
+      "subtotal": {
+        "value": 970,
+        "confidence": 0.93
+      },
+      "tax_rate": {
+        "value": 8,
+        "confidence": 0.93
+      },
+      "tax": {
+        "value": 77.6,
+        "confidence": 0.99
+      },
+      "total": {
+        "value": 1047.6,
+        "confidence": 0.96
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "Wi-Fi access point",
+            "quantity": 3,
+            "unit_price": 210,
+            "amount": 630
+          },
+          {
+            "description": "Installation labour, per hour",
+            "quantity": 4,
+            "unit_price": 85,
+            "amount": 340
+          }
+        ],
+        "confidence": 0.98
+      }
+    },
+    "check": null
+  }
+}

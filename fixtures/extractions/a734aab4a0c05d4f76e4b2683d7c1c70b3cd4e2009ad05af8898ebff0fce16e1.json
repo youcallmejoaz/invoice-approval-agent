@@ -1,0 +1,68 @@
+{
+  "file": "09-northgate-office-supply-NG-2036.pdf",
+  "sha256": "a734aab4a0c05d4f76e4b2683d7c1c70b3cd4e2009ad05af8898ebff0fce16e1",
+  "simulated": true,
+  "note": "Simulated model response generated from the sample ground truth. Replace with real responses via npm run fixtures:record.",
+  "responses": {
+    "fast": {
+      "vendor_name": {
+        "value": "Northgate Office Supply",
+        "confidence": 0.94
+      },
+      "invoice_number": {
+        "value": "NG-2036",
+        "confidence": 0.96
+      },
+      "invoice_date": {
+        "value": "2026-10-05",
+        "confidence": 0.93
+      },
+      "due_date": {
+        "value": "2026-11-04",
+        "confidence": 0.95
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.98
+      },
+      "po_number": {
+        "value": null,
+        "confidence": 0.95
+      },
+      "subtotal": {
+        "value": 1013,
+        "confidence": 0.95
+      },
+      "tax_rate": {
+        "value": 8,
+        "confidence": 0.97
+      },
+      "tax": {
+        "value": 81.04,
+        "confidence": 0.99
+      },
+      "total": {
+        "value": 1094.04,
+        "confidence": 0.96
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "Ergonomic office chair",
+            "quantity": 3,
+            "unit_price": 289,
+            "amount": 867
+          },
+          {
+            "description": "LED desk lamp",
+            "quantity": 4,
+            "unit_price": 36.5,
+            "amount": 146
+          }
+        ],
+        "confidence": 0.93
+      }
+    },
+    "check": null
+  }
+}

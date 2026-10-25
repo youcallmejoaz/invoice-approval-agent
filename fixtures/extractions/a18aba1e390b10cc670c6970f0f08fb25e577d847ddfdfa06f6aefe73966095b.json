@@ -1,0 +1,68 @@
+{
+  "file": "06-brightspark-electrical-BSE-1180.pdf",
+  "sha256": "a18aba1e390b10cc670c6970f0f08fb25e577d847ddfdfa06f6aefe73966095b",
+  "simulated": true,
+  "note": "Simulated model response generated from the sample ground truth. Replace with real responses via npm run fixtures:record.",
+  "responses": {
+    "fast": {
+      "vendor_name": {
+        "value": "Brightspark Electrical",
+        "confidence": 0.96
+      },
+      "invoice_number": {
+        "value": "BSE-1180",
+        "confidence": 0.94
+      },
+      "invoice_date": {
+        "value": "2026-10-03",
+        "confidence": 0.93
+      },
+      "due_date": {
+        "value": "2026-11-02",
+        "confidence": 0.93
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.97
+      },
+      "po_number": {
+        "value": "PO-3006",
+        "confidence": 0.92
+      },
+      "subtotal": {
+        "value": 605,
+        "confidence": 0.97
+      },
+      "tax_rate": {
+        "value": 8,
+        "confidence": 0.91
+      },
+      "tax": {
+        "value": 48.4,
+        "confidence": 0.93
+      },
+      "total": {
+        "value": 653.4,
+        "confidence": 0.96
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "Emergency call-out",
+            "quantity": 1,
+            "unit_price": 350,
+            "amount": 350
+          },
+          {
+            "description": "Outlet replacement",
+            "quantity": 3,
+            "unit_price": 85,
+            "amount": 255
+          }
+        ],
+        "confidence": 0.95
+      }
+    },
+    "check": null
+  }
+}

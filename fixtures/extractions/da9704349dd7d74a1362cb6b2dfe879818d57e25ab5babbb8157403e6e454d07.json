@@ -1,0 +1,68 @@
+{
+  "file": "38-northgate-office-supply-NG-2058.pdf",
+  "sha256": "da9704349dd7d74a1362cb6b2dfe879818d57e25ab5babbb8157403e6e454d07",
+  "simulated": true,
+  "note": "Simulated model response generated from the sample ground truth. Replace with real responses via npm run fixtures:record.",
+  "responses": {
+    "fast": {
+      "vendor_name": {
+        "value": "Northgate Office Supply",
+        "confidence": 0.97
+      },
+      "invoice_number": {
+        "value": "NG-2058",
+        "confidence": 0.94
+      },
+      "invoice_date": {
+        "value": "2026-10-22",
+        "confidence": 0.95
+      },
+      "due_date": {
+        "value": "2026-11-21",
+        "confidence": 0.98
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.97
+      },
+      "po_number": {
+        "value": null,
+        "confidence": 0.91
+      },
+      "subtotal": {
+        "value": 729,
+        "confidence": 0.93
+      },
+      "tax_rate": {
+        "value": 8,
+        "confidence": 0.94
+      },
+      "tax": {
+        "value": 58.32,
+        "confidence": 0.94
+      },
+      "total": {
+        "value": 787.32,
+        "confidence": 0.98
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "Standing desk converter",
+            "quantity": 3,
+            "unit_price": 199,
+            "amount": 597
+          },
+          {
+            "description": "Cable management kit",
+            "quantity": 6,
+            "unit_price": 22,
+            "amount": 132
+          }
+        ],
+        "confidence": 0.94
+      }
+    },
+    "check": null
+  }
+}

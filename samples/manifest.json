@@ -1,0 +1,1406 @@
+{
+  "invoices": [
+    {
+      "seq": 1,
+      "file": "01-northgate-office-supply-NG-2031.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Northgate Office Supply",
+      "vendorInMaster": true,
+      "invoiceNumber": "NG-2031",
+      "invoiceDate": "2026-10-01",
+      "dueDate": "2026-10-31",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Copy paper, A4, box of 5 reams",
+          "quantity": 10,
+          "unitPriceCents": 4200,
+          "amountCents": 42000
+        },
+        {
+          "description": "Toner cartridge, black",
+          "quantity": 3,
+          "unitPriceCents": 8900,
+          "amountCents": 26700
+        },
+        {
+          "description": "Sticky notes, 12 pack",
+          "quantity": 12,
+          "unitPriceCents": 450,
+          "amountCents": 5400
+        }
+      ],
+      "subtotalCents": 74100,
+      "taxCents": 5928,
+      "totalCents": 80028,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 2,
+      "file": "02-bluebird-cleaning-services-BB-0901.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Bluebird Cleaning Services",
+      "vendorInMaster": true,
+      "invoiceNumber": "BB-0901",
+      "invoiceDate": "2026-10-01",
+      "dueDate": "2026-10-16",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 0,
+      "lines": [
+        {
+          "description": "Office cleaning, September",
+          "quantity": 1,
+          "unitPriceCents": 115000,
+          "amountCents": 115000
+        }
+      ],
+      "subtotalCents": 115000,
+      "taxCents": 0,
+      "totalCents": 115000,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 3,
+      "file": "03-summit-it-solutions-SIT-7710.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Summit IT Solutions",
+      "vendorInMaster": true,
+      "invoiceNumber": "SIT-7710",
+      "invoiceDate": "2026-10-02",
+      "dueDate": "2026-11-01",
+      "currency": "USD",
+      "poNumber": "PO-3001",
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Laptop docking station",
+          "quantity": 4,
+          "unitPriceCents": 18500,
+          "amountCents": 74000
+        },
+        {
+          "description": "Network switch, 24 port",
+          "quantity": 1,
+          "unitPriceCents": 64000,
+          "amountCents": 64000
+        }
+      ],
+      "subtotalCents": 138000,
+      "taxCents": 11040,
+      "totalCents": 149040,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 4,
+      "file": "04-greenleaf-catering-co-GC-5501.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Greenleaf Catering Co.",
+      "vendorInMaster": true,
+      "invoiceNumber": "GC-5501",
+      "invoiceDate": "2026-10-02",
+      "dueDate": "2026-10-16",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Team lunch catering, per person",
+          "quantity": 25,
+          "unitPriceCents": 1850,
+          "amountCents": 46250
+        },
+        {
+          "description": "Delivery fee",
+          "quantity": 1,
+          "unitPriceCents": 3500,
+          "amountCents": 3500
+        }
+      ],
+      "subtotalCents": 49750,
+      "taxCents": 3980,
+      "totalCents": 53730,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 5,
+      "file": "05-harborline-logistics-HL-88120.pdf",
+      "channel": "email",
+      "scenario": "clean",
+      "vendorName": "Harborline Logistics",
+      "vendorInMaster": true,
+      "invoiceNumber": "HL-88120",
+      "invoiceDate": "2026-10-03",
+      "dueDate": "2026-11-02",
+      "currency": "USD",
+      "poNumber": "PO-3002",
+      "taxRate": 0,
+      "lines": [
+        {
+          "description": "Pallet freight, Riverton to Port Ellis",
+          "quantity": 1,
+          "unitPriceCents": 145000,
+          "amountCents": 145000
+        },
+        {
+          "description": "Liftgate service",
+          "quantity": 1,
+          "unitPriceCents": 9500,
+          "amountCents": 9500
+        }
+      ],
+      "subtotalCents": 154500,
+      "taxCents": 0,
+      "totalCents": 154500,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 6,
+      "file": "06-brightspark-electrical-BSE-1180.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Brightspark Electrical",
+      "vendorInMaster": true,
+      "invoiceNumber": "BSE-1180",
+      "invoiceDate": "2026-10-03",
+      "dueDate": "2026-11-02",
+      "currency": "USD",
+      "poNumber": "PO-3006",
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Emergency call-out",
+          "quantity": 1,
+          "unitPriceCents": 35000,
+          "amountCents": 35000
+        },
+        {
+          "description": "Outlet replacement",
+          "quantity": 3,
+          "unitPriceCents": 8500,
+          "amountCents": 25500
+        }
+      ],
+      "subtotalCents": 60500,
+      "taxCents": 4840,
+      "totalCents": 65340,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 7,
+      "file": "07-maple-and-pine-print-shop-MP-3301.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Maple & Pine Print Shop",
+      "vendorInMaster": true,
+      "invoiceNumber": "MP-3301",
+      "invoiceDate": "2026-10-04",
+      "dueDate": "2026-11-03",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Business cards, box of 500",
+          "quantity": 4,
+          "unitPriceCents": 4500,
+          "amountCents": 18000
+        },
+        {
+          "description": "Tri-fold brochures",
+          "quantity": 1000,
+          "unitPriceCents": 42,
+          "amountCents": 42000
+        }
+      ],
+      "subtotalCents": 60000,
+      "taxCents": 4800,
+      "totalCents": 64800,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 8,
+      "file": "08-clearwater-facilities-CWF-6610.pdf",
+      "channel": "email",
+      "scenario": "clean",
+      "vendorName": "Clearwater Facilities",
+      "vendorInMaster": true,
+      "invoiceNumber": "CWF-6610",
+      "invoiceDate": "2026-10-04",
+      "dueDate": "2026-11-03",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 0,
+      "lines": [
+        {
+          "description": "Water cooler rental, October",
+          "quantity": 2,
+          "unitPriceCents": 3800,
+          "amountCents": 7600
+        },
+        {
+          "description": "Bottled water, 5 gallon",
+          "quantity": 20,
+          "unitPriceCents": 950,
+          "amountCents": 19000
+        }
+      ],
+      "subtotalCents": 26600,
+      "taxCents": 0,
+      "totalCents": 26600,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 9,
+      "file": "09-northgate-office-supply-NG-2036.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Northgate Office Supply",
+      "vendorInMaster": true,
+      "invoiceNumber": "NG-2036",
+      "invoiceDate": "2026-10-05",
+      "dueDate": "2026-11-04",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Ergonomic office chair",
+          "quantity": 3,
+          "unitPriceCents": 28900,
+          "amountCents": 86700
+        },
+        {
+          "description": "LED desk lamp",
+          "quantity": 4,
+          "unitPriceCents": 3650,
+          "amountCents": 14600
+        }
+      ],
+      "subtotalCents": 101300,
+      "taxCents": 8104,
+      "totalCents": 109404,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 10,
+      "file": "10-summit-it-solutions-SIT-7718.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Summit IT Solutions",
+      "vendorInMaster": true,
+      "invoiceNumber": "SIT-7718",
+      "invoiceDate": "2026-10-05",
+      "dueDate": "2026-11-04",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Managed IT support, October",
+          "quantity": 1,
+          "unitPriceCents": 240000,
+          "amountCents": 240000
+        },
+        {
+          "description": "Cloud backup storage, 2 TB",
+          "quantity": 1,
+          "unitPriceCents": 12000,
+          "amountCents": 12000
+        }
+      ],
+      "subtotalCents": 252000,
+      "taxCents": 20160,
+      "totalCents": 272160,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 11,
+      "file": "11-greenleaf-catering-co-GC-5512.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Greenleaf Catering Co.",
+      "vendorInMaster": true,
+      "invoiceNumber": "GC-5512",
+      "invoiceDate": "2026-10-06",
+      "dueDate": "2026-10-20",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Breakfast platter",
+          "quantity": 3,
+          "unitPriceCents": 6500,
+          "amountCents": 19500
+        },
+        {
+          "description": "Coffee service, per cup",
+          "quantity": 30,
+          "unitPriceCents": 320,
+          "amountCents": 9600
+        }
+      ],
+      "subtotalCents": 29100,
+      "taxCents": 2328,
+      "totalCents": 31428,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 12,
+      "file": "12-northgate-office-supply-NG-2041.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Northgate Office Supply",
+      "vendorInMaster": true,
+      "invoiceNumber": "NG-2041",
+      "invoiceDate": "2026-10-06",
+      "dueDate": "2026-11-05",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Whiteboard markers",
+          "quantity": 20,
+          "unitPriceCents": 275,
+          "amountCents": 5500
+        },
+        {
+          "description": "Filing cabinet, 3 drawer",
+          "quantity": 2,
+          "unitPriceCents": 21500,
+          "amountCents": 43000
+        },
+        {
+          "description": "Shredder bags",
+          "quantity": 5,
+          "unitPriceCents": 1200,
+          "amountCents": 6000
+        }
+      ],
+      "subtotalCents": 54500,
+      "taxCents": 4360,
+      "totalCents": 58860,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 13,
+      "file": "13-bluebird-cleaning-services-BB-0907.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Bluebird Cleaning Services",
+      "vendorInMaster": true,
+      "invoiceNumber": "BB-0907",
+      "invoiceDate": "2026-10-07",
+      "dueDate": "2026-10-22",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 0,
+      "lines": [
+        {
+          "description": "Carpet deep clean",
+          "quantity": 1,
+          "unitPriceCents": 68000,
+          "amountCents": 68000
+        },
+        {
+          "description": "Exterior window cleaning",
+          "quantity": 1,
+          "unitPriceCents": 34000,
+          "amountCents": 34000
+        }
+      ],
+      "subtotalCents": 102000,
+      "taxCents": 0,
+      "totalCents": 102000,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 14,
+      "file": "14-brightspark-electrical-BSE-1186.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Brightspark Electrical",
+      "vendorInMaster": true,
+      "invoiceNumber": "BSE-1186",
+      "invoiceDate": "2026-10-07",
+      "dueDate": "2026-11-06",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Lighting safety inspection",
+          "quantity": 1,
+          "unitPriceCents": 22000,
+          "amountCents": 22000
+        },
+        {
+          "description": "Replacement ballast",
+          "quantity": 2,
+          "unitPriceCents": 4800,
+          "amountCents": 9600
+        }
+      ],
+      "subtotalCents": 31600,
+      "taxCents": 2528,
+      "totalCents": 34128,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 15,
+      "file": "15-clearwater-facilities-CWF-6618.jpg",
+      "channel": "upload",
+      "scenario": "scan_recovered",
+      "vendorName": "Clearwater Facilities",
+      "vendorInMaster": true,
+      "invoiceNumber": "CWF-6618",
+      "invoiceDate": "2026-10-08",
+      "dueDate": "2026-11-07",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 0,
+      "lines": [
+        {
+          "description": "HVAC filter replacement",
+          "quantity": 12,
+          "unitPriceCents": 1875,
+          "amountCents": 22500
+        },
+        {
+          "description": "Maintenance visit",
+          "quantity": 1,
+          "unitPriceCents": 15000,
+          "amountCents": 15000
+        }
+      ],
+      "subtotalCents": 37500,
+      "taxCents": 0,
+      "totalCents": 37500,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 16,
+      "file": "16-harborline-logistics-HL-88131.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Harborline Logistics",
+      "vendorInMaster": true,
+      "invoiceNumber": "HL-88131",
+      "invoiceDate": "2026-10-08",
+      "dueDate": "2026-11-07",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 0,
+      "lines": [
+        {
+          "description": "Same day courier",
+          "quantity": 6,
+          "unitPriceCents": 4200,
+          "amountCents": 25200
+        },
+        {
+          "description": "Parcel shipping",
+          "quantity": 14,
+          "unitPriceCents": 1125,
+          "amountCents": 15750
+        }
+      ],
+      "subtotalCents": 40950,
+      "taxCents": 0,
+      "totalCents": 40950,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 17,
+      "file": "17-maple-and-pine-print-shop-MP-3308.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Maple & Pine Print Shop",
+      "vendorInMaster": true,
+      "invoiceNumber": "MP-3308",
+      "invoiceDate": "2026-10-09",
+      "dueDate": "2026-11-08",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Event banner, 2 m",
+          "quantity": 2,
+          "unitPriceCents": 13500,
+          "amountCents": 27000
+        },
+        {
+          "description": "Poster, A2",
+          "quantity": 25,
+          "unitPriceCents": 680,
+          "amountCents": 17000
+        }
+      ],
+      "subtotalCents": 44000,
+      "taxCents": 3520,
+      "totalCents": 47520,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 18,
+      "file": "18-bluebird-cleaning-services-BB-0917.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Bluebird Cleaning Services",
+      "vendorInMaster": true,
+      "invoiceNumber": "BB-0917",
+      "invoiceDate": "2026-10-09",
+      "dueDate": "2026-10-24",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 0,
+      "lines": [
+        {
+          "description": "Restroom supplies restock",
+          "quantity": 1,
+          "unitPriceCents": 18500,
+          "amountCents": 18500
+        },
+        {
+          "description": "Floor waxing",
+          "quantity": 1,
+          "unitPriceCents": 56000,
+          "amountCents": 56000
+        }
+      ],
+      "subtotalCents": 74500,
+      "taxCents": 0,
+      "totalCents": 74500,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 19,
+      "file": "19-summit-it-solutions-SIT-7725.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Summit IT Solutions",
+      "vendorInMaster": true,
+      "invoiceNumber": "SIT-7725",
+      "invoiceDate": "2026-10-10",
+      "dueDate": "2026-11-09",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Firewall licence renewal, annual",
+          "quantity": 1,
+          "unitPriceCents": 118000,
+          "amountCents": 118000
+        },
+        {
+          "description": "Security review",
+          "quantity": 1,
+          "unitPriceCents": 95000,
+          "amountCents": 95000
+        }
+      ],
+      "subtotalCents": 213000,
+      "taxCents": 17040,
+      "totalCents": 230040,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 20,
+      "file": "20-summit-it-solutions-SIT-7731.pdf",
+      "channel": "upload",
+      "scenario": "over_limit",
+      "vendorName": "Summit IT Solutions",
+      "vendorInMaster": true,
+      "invoiceNumber": "SIT-7731",
+      "invoiceDate": "2026-10-11",
+      "dueDate": "2026-11-10",
+      "currency": "USD",
+      "poNumber": "PO-3003",
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Business laptop, 14 inch",
+          "quantity": 6,
+          "unitPriceCents": 129000,
+          "amountCents": 774000
+        },
+        {
+          "description": "Laptop setup and imaging",
+          "quantity": 6,
+          "unitPriceCents": 6000,
+          "amountCents": 36000
+        }
+      ],
+      "subtotalCents": 810000,
+      "taxCents": 64800,
+      "totalCents": 874800,
+      "duplicateOfSeq": null,
+      "expectedRoute": "manager",
+      "expectedFlags": [
+        "over_limit"
+      ]
+    },
+    {
+      "seq": 21,
+      "file": "21-greenleaf-catering-co-GC-5523.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Greenleaf Catering Co.",
+      "vendorInMaster": true,
+      "invoiceNumber": "GC-5523",
+      "invoiceDate": "2026-10-12",
+      "dueDate": "2026-10-26",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Client meeting lunch, per person",
+          "quantity": 12,
+          "unitPriceCents": 2400,
+          "amountCents": 28800
+        },
+        {
+          "description": "Dessert tray",
+          "quantity": 1,
+          "unitPriceCents": 5500,
+          "amountCents": 5500
+        }
+      ],
+      "subtotalCents": 34300,
+      "taxCents": 2744,
+      "totalCents": 37044,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 22,
+      "file": "22-greenleaf-catering-co-GC-5530.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Greenleaf Catering Co.",
+      "vendorInMaster": true,
+      "invoiceNumber": "GC-5530",
+      "invoiceDate": "2026-10-14",
+      "dueDate": "2026-10-28",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Town hall catering, per person",
+          "quantity": 60,
+          "unitPriceCents": 1900,
+          "amountCents": 114000
+        },
+        {
+          "description": "Beverage station",
+          "quantity": 1,
+          "unitPriceCents": 10000,
+          "amountCents": 10000
+        }
+      ],
+      "subtotalCents": 124000,
+      "taxCents": 9920,
+      "totalCents": 133920,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 23,
+      "file": "23-northgate-office-supply-NG-2047.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Northgate Office Supply",
+      "vendorInMaster": true,
+      "invoiceNumber": "NG-2047",
+      "invoiceDate": "2026-10-14",
+      "dueDate": "2026-11-13",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Printer paper, box of 5 reams",
+          "quantity": 15,
+          "unitPriceCents": 4200,
+          "amountCents": 63000
+        },
+        {
+          "description": "Binder clips, box",
+          "quantity": 10,
+          "unitPriceCents": 340,
+          "amountCents": 3400
+        }
+      ],
+      "subtotalCents": 66400,
+      "taxCents": 5312,
+      "totalCents": 71712,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 24,
+      "file": "24-harborline-logistics-HL-88140.pdf",
+      "channel": "email",
+      "scenario": "clean",
+      "vendorName": "Harborline Logistics",
+      "vendorInMaster": true,
+      "invoiceNumber": "HL-88140",
+      "invoiceDate": "2026-10-15",
+      "dueDate": "2026-11-14",
+      "currency": "USD",
+      "poNumber": "PO-3005",
+      "taxRate": 0,
+      "lines": [
+        {
+          "description": "Container drayage",
+          "quantity": 1,
+          "unitPriceCents": 87500,
+          "amountCents": 87500
+        },
+        {
+          "description": "Fuel surcharge",
+          "quantity": 1,
+          "unitPriceCents": 11250,
+          "amountCents": 11250
+        }
+      ],
+      "subtotalCents": 98750,
+      "taxCents": 0,
+      "totalCents": 98750,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 25,
+      "file": "25-maple-and-pine-print-shop-MP-3315.pdf",
+      "channel": "upload",
+      "scenario": "maths_lines",
+      "vendorName": "Maple & Pine Print Shop",
+      "vendorInMaster": true,
+      "invoiceNumber": "MP-3315",
+      "invoiceDate": "2026-10-15",
+      "dueDate": "2026-11-14",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Letterhead, printed",
+          "quantity": 1000,
+          "unitPriceCents": 35,
+          "amountCents": 35000
+        },
+        {
+          "description": "Envelopes, printed",
+          "quantity": 1000,
+          "unitPriceCents": 30,
+          "amountCents": 30000
+        },
+        {
+          "description": "Presentation folders",
+          "quantity": 500,
+          "unitPriceCents": 100,
+          "amountCents": 50000
+        }
+      ],
+      "subtotalCents": 125000,
+      "taxCents": 10000,
+      "totalCents": 135000,
+      "duplicateOfSeq": null,
+      "expectedRoute": "review",
+      "expectedFlags": [
+        "subtotal_mismatch"
+      ]
+    },
+    {
+      "seq": 26,
+      "file": "26-clearwater-facilities-CWF-6625.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Clearwater Facilities",
+      "vendorInMaster": true,
+      "invoiceNumber": "CWF-6625",
+      "invoiceDate": "2026-10-16",
+      "dueDate": "2026-11-15",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 0,
+      "lines": [
+        {
+          "description": "Pest control, quarterly",
+          "quantity": 1,
+          "unitPriceCents": 21000,
+          "amountCents": 21000
+        },
+        {
+          "description": "Grease trap service",
+          "quantity": 1,
+          "unitPriceCents": 34000,
+          "amountCents": 34000
+        }
+      ],
+      "subtotalCents": 55000,
+      "taxCents": 0,
+      "totalCents": 55000,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 27,
+      "file": "27-redwood-marketing-studio-RMS-0042.pdf",
+      "channel": "upload",
+      "scenario": "new_vendor",
+      "vendorName": "Redwood Marketing Studio",
+      "vendorInMaster": false,
+      "invoiceNumber": "RMS-0042",
+      "invoiceDate": "2026-10-16",
+      "dueDate": "2026-11-15",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Social media campaign setup",
+          "quantity": 1,
+          "unitPriceCents": 120000,
+          "amountCents": 120000
+        },
+        {
+          "description": "Ad creative set",
+          "quantity": 3,
+          "unitPriceCents": 15000,
+          "amountCents": 45000
+        }
+      ],
+      "subtotalCents": 165000,
+      "taxCents": 13200,
+      "totalCents": 178200,
+      "duplicateOfSeq": null,
+      "expectedRoute": "review",
+      "expectedFlags": [
+        "new_vendor"
+      ]
+    },
+    {
+      "seq": 28,
+      "file": "28-bluebird-cleaning-services-BB-0923.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Bluebird Cleaning Services",
+      "vendorInMaster": true,
+      "invoiceNumber": "BB-0923",
+      "invoiceDate": "2026-10-17",
+      "dueDate": "2026-11-01",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 0,
+      "lines": [
+        {
+          "description": "Post-event cleanup",
+          "quantity": 1,
+          "unitPriceCents": 42000,
+          "amountCents": 42000
+        },
+        {
+          "description": "Upholstery cleaning, per chair",
+          "quantity": 6,
+          "unitPriceCents": 4500,
+          "amountCents": 27000
+        }
+      ],
+      "subtotalCents": 69000,
+      "taxCents": 0,
+      "totalCents": 69000,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 29,
+      "file": "29-brightspark-electrical-BSE-1199.pdf",
+      "channel": "upload",
+      "scenario": "maths_tax",
+      "vendorName": "Brightspark Electrical",
+      "vendorInMaster": true,
+      "invoiceNumber": "BSE-1199",
+      "invoiceDate": "2026-10-17",
+      "dueDate": "2026-11-16",
+      "currency": "USD",
+      "poNumber": "PO-3004",
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Electrical panel upgrade, labour",
+          "quantity": 1,
+          "unitPriceCents": 140000,
+          "amountCents": 140000
+        },
+        {
+          "description": "LED ceiling fixture",
+          "quantity": 4,
+          "unitPriceCents": 15000,
+          "amountCents": 60000
+        }
+      ],
+      "subtotalCents": 200000,
+      "taxCents": 18000,
+      "totalCents": 218000,
+      "duplicateOfSeq": null,
+      "expectedRoute": "review",
+      "expectedFlags": [
+        "tax_mismatch"
+      ]
+    },
+    {
+      "seq": 30,
+      "file": "30-summit-it-solutions-SIT-7740.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Summit IT Solutions",
+      "vendorInMaster": true,
+      "invoiceNumber": "SIT-7740",
+      "invoiceDate": "2026-10-18",
+      "dueDate": "2026-11-17",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Laptop repair",
+          "quantity": 2,
+          "unitPriceCents": 16500,
+          "amountCents": 33000
+        },
+        {
+          "description": "Replacement charger",
+          "quantity": 3,
+          "unitPriceCents": 5500,
+          "amountCents": 16500
+        }
+      ],
+      "subtotalCents": 49500,
+      "taxCents": 3960,
+      "totalCents": 53460,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 31,
+      "file": "31-northgate-office-supply-NG-2041-copy.pdf",
+      "channel": "email",
+      "scenario": "exact_duplicate",
+      "vendorName": "Northgate Office Supply",
+      "vendorInMaster": true,
+      "invoiceNumber": "NG-2041",
+      "invoiceDate": "2026-10-06",
+      "dueDate": "2026-11-05",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Whiteboard markers",
+          "quantity": 20,
+          "unitPriceCents": 275,
+          "amountCents": 5500
+        },
+        {
+          "description": "Filing cabinet, 3 drawer",
+          "quantity": 2,
+          "unitPriceCents": 21500,
+          "amountCents": 43000
+        },
+        {
+          "description": "Shredder bags",
+          "quantity": 5,
+          "unitPriceCents": 1200,
+          "amountCents": 6000
+        }
+      ],
+      "subtotalCents": 54500,
+      "taxCents": 4360,
+      "totalCents": 58860,
+      "duplicateOfSeq": 12,
+      "expectedRoute": "blocked",
+      "expectedFlags": [
+        "duplicate_file"
+      ]
+    },
+    {
+      "seq": 32,
+      "file": "32-northgate-office-supply-NG-2052.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Northgate Office Supply",
+      "vendorInMaster": true,
+      "invoiceNumber": "NG-2052",
+      "invoiceDate": "2026-10-19",
+      "dueDate": "2026-11-18",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Desk organiser",
+          "quantity": 10,
+          "unitPriceCents": 1450,
+          "amountCents": 14500
+        },
+        {
+          "description": "Monitor stand",
+          "quantity": 5,
+          "unitPriceCents": 4800,
+          "amountCents": 24000
+        }
+      ],
+      "subtotalCents": 38500,
+      "taxCents": 3080,
+      "totalCents": 41580,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 33,
+      "file": "33-harborline-logistics-HL-88152.jpg",
+      "channel": "upload",
+      "scenario": "scan_unclear",
+      "vendorName": "Harborline Logistics",
+      "vendorInMaster": true,
+      "invoiceNumber": "HL-88152",
+      "invoiceDate": "2026-10-19",
+      "dueDate": "2026-11-18",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 0,
+      "lines": [
+        {
+          "description": "Freight, Port Ellis to Hillview",
+          "quantity": 1,
+          "unitPriceCents": 118000,
+          "amountCents": 118000
+        },
+        {
+          "description": "Pallet wrap",
+          "quantity": 4,
+          "unitPriceCents": 1250,
+          "amountCents": 5000
+        }
+      ],
+      "subtotalCents": 123000,
+      "taxCents": 0,
+      "totalCents": 123000,
+      "duplicateOfSeq": null,
+      "expectedRoute": "review",
+      "expectedFlags": [
+        "low_confidence"
+      ]
+    },
+    {
+      "seq": 34,
+      "file": "34-bluebird-cleaning-services-BB-0917-reminder.pdf",
+      "channel": "upload",
+      "scenario": "resent_duplicate",
+      "vendorName": "Bluebird Cleaning Services",
+      "vendorInMaster": true,
+      "invoiceNumber": "BB-0917",
+      "invoiceDate": "2026-10-09",
+      "dueDate": "2026-10-24",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 0,
+      "lines": [
+        {
+          "description": "Restroom supplies restock",
+          "quantity": 1,
+          "unitPriceCents": 18500,
+          "amountCents": 18500
+        },
+        {
+          "description": "Floor waxing",
+          "quantity": 1,
+          "unitPriceCents": 56000,
+          "amountCents": 56000
+        }
+      ],
+      "subtotalCents": 74500,
+      "taxCents": 0,
+      "totalCents": 74500,
+      "duplicateOfSeq": 18,
+      "expectedRoute": "blocked",
+      "expectedFlags": [
+        "duplicate_invoice_number"
+      ]
+    },
+    {
+      "seq": 35,
+      "file": "35-maple-and-pine-print-shop-MP-3322.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Maple & Pine Print Shop",
+      "vendorInMaster": true,
+      "invoiceNumber": "MP-3322",
+      "invoiceDate": "2026-10-20",
+      "dueDate": "2026-11-19",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Vinyl window lettering",
+          "quantity": 1,
+          "unitPriceCents": 38000,
+          "amountCents": 38000
+        },
+        {
+          "description": "Table tent cards",
+          "quantity": 200,
+          "unitPriceCents": 95,
+          "amountCents": 19000
+        }
+      ],
+      "subtotalCents": 57000,
+      "taxCents": 4560,
+      "totalCents": 61560,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 36,
+      "file": "36-greenleaf-catering-co-GC-5536.pdf",
+      "channel": "upload",
+      "scenario": "near_duplicate",
+      "vendorName": "Greenleaf Catering Co.",
+      "vendorInMaster": true,
+      "invoiceNumber": "GC-5536",
+      "invoiceDate": "2026-10-20",
+      "dueDate": "2026-11-03",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Town hall catering, per person",
+          "quantity": 60,
+          "unitPriceCents": 1910,
+          "amountCents": 114600
+        },
+        {
+          "description": "Beverage station",
+          "quantity": 1,
+          "unitPriceCents": 10000,
+          "amountCents": 10000
+        }
+      ],
+      "subtotalCents": 124600,
+      "taxCents": 9968,
+      "totalCents": 134568,
+      "duplicateOfSeq": 22,
+      "expectedRoute": "review",
+      "expectedFlags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "seq": 37,
+      "file": "37-clearwater-facilities-CWF-6631.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Clearwater Facilities",
+      "vendorInMaster": true,
+      "invoiceNumber": "CWF-6631",
+      "invoiceDate": "2026-10-21",
+      "dueDate": "2026-11-20",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 0,
+      "lines": [
+        {
+          "description": "Bottled water delivery, 5 gallon",
+          "quantity": 24,
+          "unitPriceCents": 950,
+          "amountCents": 22800
+        },
+        {
+          "description": "Paper cups, sleeve",
+          "quantity": 10,
+          "unitPriceCents": 600,
+          "amountCents": 6000
+        }
+      ],
+      "subtotalCents": 28800,
+      "taxCents": 0,
+      "totalCents": 28800,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 38,
+      "file": "38-northgate-office-supply-NG-2058.pdf",
+      "channel": "upload",
+      "scenario": "ledger_fault",
+      "vendorName": "Northgate Office Supply",
+      "vendorInMaster": true,
+      "invoiceNumber": "NG-2058",
+      "invoiceDate": "2026-10-22",
+      "dueDate": "2026-11-21",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Standing desk converter",
+          "quantity": 3,
+          "unitPriceCents": 19900,
+          "amountCents": 59700
+        },
+        {
+          "description": "Cable management kit",
+          "quantity": 6,
+          "unitPriceCents": 2200,
+          "amountCents": 13200
+        }
+      ],
+      "subtotalCents": 72900,
+      "taxCents": 5832,
+      "totalCents": 78732,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 39,
+      "file": "39-brightspark-electrical-BSE-1204.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Brightspark Electrical",
+      "vendorInMaster": true,
+      "invoiceNumber": "BSE-1204",
+      "invoiceDate": "2026-10-22",
+      "dueDate": "2026-11-21",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Exit sign battery replacement",
+          "quantity": 8,
+          "unitPriceCents": 2700,
+          "amountCents": 21600
+        },
+        {
+          "description": "Inspection report",
+          "quantity": 1,
+          "unitPriceCents": 9500,
+          "amountCents": 9500
+        }
+      ],
+      "subtotalCents": 31100,
+      "taxCents": 2488,
+      "totalCents": 33588,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    },
+    {
+      "seq": 40,
+      "file": "40-summit-it-solutions-SIT-7746.pdf",
+      "channel": "upload",
+      "scenario": "clean",
+      "vendorName": "Summit IT Solutions",
+      "vendorInMaster": true,
+      "invoiceNumber": "SIT-7746",
+      "invoiceDate": "2026-10-23",
+      "dueDate": "2026-11-22",
+      "currency": "USD",
+      "poNumber": null,
+      "taxRate": 8,
+      "lines": [
+        {
+          "description": "Wi-Fi access point",
+          "quantity": 3,
+          "unitPriceCents": 21000,
+          "amountCents": 63000
+        },
+        {
+          "description": "Installation labour, per hour",
+          "quantity": 4,
+          "unitPriceCents": 8500,
+          "amountCents": 34000
+        }
+      ],
+      "subtotalCents": 97000,
+      "taxCents": 7760,
+      "totalCents": 104760,
+      "duplicateOfSeq": null,
+      "expectedRoute": "auto",
+      "expectedFlags": []
+    }
+  ],
+  "ledgerFaults": [
+    {
+      "billNumber": "NG-2058",
+      "reason": "The accounting system did not respond in time. Nothing was posted. Retry to send it again.",
+      "technical": "ETIMEDOUT after 30000 ms on POST /bills",
+      "remaining": 1
+    }
+  ]
+}

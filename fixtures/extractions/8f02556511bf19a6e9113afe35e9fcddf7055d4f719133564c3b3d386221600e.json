@@ -1,0 +1,68 @@
+{
+  "file": "14-brightspark-electrical-BSE-1186.pdf",
+  "sha256": "8f02556511bf19a6e9113afe35e9fcddf7055d4f719133564c3b3d386221600e",
+  "simulated": true,
+  "note": "Simulated model response generated from the sample ground truth. Replace with real responses via npm run fixtures:record.",
+  "responses": {
+    "fast": {
+      "vendor_name": {
+        "value": "Brightspark Electrical",
+        "confidence": 0.94
+      },
+      "invoice_number": {
+        "value": "BSE-1186",
+        "confidence": 0.96
+      },
+      "invoice_date": {
+        "value": "2026-10-07",
+        "confidence": 0.97
+      },
+      "due_date": {
+        "value": "2026-11-06",
+        "confidence": 0.9
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.99
+      },
+      "po_number": {
+        "value": null,
+        "confidence": 0.96
+      },
+      "subtotal": {
+        "value": 316,
+        "confidence": 0.94
+      },
+      "tax_rate": {
+        "value": 8,
+        "confidence": 0.96
+      },
+      "tax": {
+        "value": 25.28,
+        "confidence": 0.96
+      },
+      "total": {
+        "value": 341.28,
+        "confidence": 0.98
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "Lighting safety inspection",
+            "quantity": 1,
+            "unit_price": 220,
+            "amount": 220
+          },
+          {
+            "description": "Replacement ballast",
+            "quantity": 2,
+            "unit_price": 48,
+            "amount": 96
+          }
+        ],
+        "confidence": 0.95
+      }
+    },
+    "check": null
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "rules": [
+    {
+      "id": "over-limit",
+      "name": "Over the approval limit",
+      "kind": "amount_over",
+      "params": { "amount": 5000 },
+      "route": "manager",
+      "priority": 10,
+      "description": "Invoices over $5,000 need a finance manager."
+    },
+    {
+      "id": "failed-checks",
+      "name": "Failed checks",
+      "kind": "validation_failed",
+      "params": {},
+      "route": "review",
+      "priority": 20,
+      "description": "Maths, date, vendor or purchase order checks failed."
+    },
+    {
+      "id": "low-confidence",
+      "name": "AI not sure",
+      "kind": "low_confidence",
+      "params": {},
+      "route": "review",
+      "priority": 30,
+      "description": "A field could not be read clearly, even after the re-check."
+    },
+    {
+      "id": "new-vendor",
+      "name": "New vendor",
+      "kind": "new_vendor",
+      "params": {},
+      "route": "review",
+      "priority": 40,
+      "description": "The vendor is not in the vendor list yet."
+    },
+    {
+      "id": "possible-duplicate",
+      "name": "Possible duplicate",
+      "kind": "possible_duplicate",
+      "params": {},
+      "route": "review",
+      "priority": 50,
+      "description": "Looks like an invoice already received."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "file": "29-brightspark-electrical-BSE-1199.pdf",
+  "sha256": "33949ae189cb6ca177f23f9d1df72ddb34435427fc400031b9c16cc282954b64",
+  "simulated": true,
+  "note": "Simulated model response generated from the sample ground truth. Replace with real responses via npm run fixtures:record.",
+  "responses": {
+    "fast": {
+      "vendor_name": {
+        "value": "Brightspark Electrical",
+        "confidence": 0.98
+      },
+      "invoice_number": {
+        "value": "BSE-1199",
+        "confidence": 0.96
+      },
+      "invoice_date": {
+        "value": "2026-10-17",
+        "confidence": 0.94
+      },
+      "due_date": {
+        "value": "2026-11-16",
+        "confidence": 0.96
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.95
+      },
+      "po_number": {
+        "value": "PO-3004",
+        "confidence": 0.96
+      },
+      "subtotal": {
+        "value": 2000,
+        "confidence": 0.95
+      },
+      "tax_rate": {
+        "value": 8,
+        "confidence": 0.9
+      },
+      "tax": {
+        "value": 180,
+        "confidence": 0.95
+      },
+      "total": {
+        "value": 2180,
+        "confidence": 0.97
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "Electrical panel upgrade, labour",
+            "quantity": 1,
+            "unit_price": 1400,
+            "amount": 1400
+          },
+          {
+            "description": "LED ceiling fixture",
+            "quantity": 4,
+            "unit_price": 150,
+            "amount": 600
+          }
+        ],
+        "confidence": 0.92
+      }
+    },
+    "check": null
+  }
+}

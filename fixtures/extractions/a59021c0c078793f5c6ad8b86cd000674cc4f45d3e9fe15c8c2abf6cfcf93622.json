@@ -1,0 +1,68 @@
+{
+  "file": "04-greenleaf-catering-co-GC-5501.pdf",
+  "sha256": "a59021c0c078793f5c6ad8b86cd000674cc4f45d3e9fe15c8c2abf6cfcf93622",
+  "simulated": true,
+  "note": "Simulated model response generated from the sample ground truth. Replace with real responses via npm run fixtures:record.",
+  "responses": {
+    "fast": {
+      "vendor_name": {
+        "value": "Greenleaf Catering Co.",
+        "confidence": 0.94
+      },
+      "invoice_number": {
+        "value": "GC-5501",
+        "confidence": 0.93
+      },
+      "invoice_date": {
+        "value": "2026-10-02",
+        "confidence": 0.92
+      },
+      "due_date": {
+        "value": "2026-10-16",
+        "confidence": 0.94
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.98
+      },
+      "po_number": {
+        "value": null,
+        "confidence": 0.96
+      },
+      "subtotal": {
+        "value": 497.5,
+        "confidence": 0.94
+      },
+      "tax_rate": {
+        "value": 8,
+        "confidence": 0.98
+      },
+      "tax": {
+        "value": 39.8,
+        "confidence": 0.95
+      },
+      "total": {
+        "value": 537.3,
+        "confidence": 0.98
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "Team lunch catering, per person",
+            "quantity": 25,
+            "unit_price": 18.5,
+            "amount": 462.5
+          },
+          {
+            "description": "Delivery fee",
+            "quantity": 1,
+            "unit_price": 35,
+            "amount": 35
+          }
+        ],
+        "confidence": 0.98
+      }
+    },
+    "check": null
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "file": "30-summit-it-solutions-SIT-7740.pdf",
+  "sha256": "ce56802fa40a4f6831a7ef7e3bce51ba50bce6c2ee4e996bac0aaa90dd027514",
+  "simulated": true,
+  "note": "Simulated model response generated from the sample ground truth. Replace with real responses via npm run fixtures:record.",
+  "responses": {
+    "fast": {
+      "vendor_name": {
+        "value": "Summit IT Solutions",
+        "confidence": 0.96
+      },
+      "invoice_number": {
+        "value": "SIT-7740",
+        "confidence": 0.94
+      },
+      "invoice_date": {
+        "value": "2026-10-18",
+        "confidence": 0.96
+      },
+      "due_date": {
+        "value": "2026-11-17",
+        "confidence": 0.94
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.96
+      },
+      "po_number": {
+        "value": null,
+        "confidence": 0.96
+      },
+      "subtotal": {
+        "value": 495,
+        "confidence": 0.98
+      },
+      "tax_rate": {
+        "value": 8,
+        "confidence": 0.93
+      },
+      "tax": {
+        "value": 39.6,
+        "confidence": 0.98
+      },
+      "total": {
+        "value": 534.6,
+        "confidence": 0.97
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "Laptop repair",
+            "quantity": 2,
+            "unit_price": 165,
+            "amount": 330
+          },
+          {
+            "description": "Replacement charger",
+            "quantity": 3,
+            "unit_price": 55,
+            "amount": 165
+          }
+        ],
+        "confidence": 0.92
+      }
+    },
+    "check": null
+  }
+}

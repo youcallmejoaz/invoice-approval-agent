@@ -1,0 +1,68 @@
+{
+  "file": "39-brightspark-electrical-BSE-1204.pdf",
+  "sha256": "5a561e3ba4b50348daac9064fa9d31246fb821456dfc2e658fb60afb5abe4e1b",
+  "simulated": true,
+  "note": "Simulated model response generated from the sample ground truth. Replace with real responses via npm run fixtures:record.",
+  "responses": {
+    "fast": {
+      "vendor_name": {
+        "value": "Brightspark Electrical",
+        "confidence": 0.95
+      },
+      "invoice_number": {
+        "value": "BSE-1204",
+        "confidence": 0.95
+      },
+      "invoice_date": {
+        "value": "2026-10-22",
+        "confidence": 0.93
+      },
+      "due_date": {
+        "value": "2026-11-21",
+        "confidence": 0.96
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.99
+      },
+      "po_number": {
+        "value": null,
+        "confidence": 0.92
+      },
+      "subtotal": {
+        "value": 311,
+        "confidence": 0.96
+      },
+      "tax_rate": {
+        "value": 8,
+        "confidence": 0.98
+      },
+      "tax": {
+        "value": 24.88,
+        "confidence": 0.95
+      },
+      "total": {
+        "value": 335.88,
+        "confidence": 0.96
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "Exit sign battery replacement",
+            "quantity": 8,
+            "unit_price": 27,
+            "amount": 216
+          },
+          {
+            "description": "Inspection report",
+            "quantity": 1,
+            "unit_price": 95,
+            "amount": 95
+          }
+        ],
+        "confidence": 0.94
+      }
+    },
+    "check": null
+  }
+}

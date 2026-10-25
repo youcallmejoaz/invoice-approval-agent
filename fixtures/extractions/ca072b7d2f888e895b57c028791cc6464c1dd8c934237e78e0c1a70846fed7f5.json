@@ -1,0 +1,74 @@
+{
+  "file": "01-northgate-office-supply-NG-2031.pdf",
+  "sha256": "ca072b7d2f888e895b57c028791cc6464c1dd8c934237e78e0c1a70846fed7f5",
+  "simulated": true,
+  "note": "Simulated model response generated from the sample ground truth. Replace with real responses via npm run fixtures:record.",
+  "responses": {
+    "fast": {
+      "vendor_name": {
+        "value": "Northgate Office Supply",
+        "confidence": 0.93
+      },
+      "invoice_number": {
+        "value": "NG-2031",
+        "confidence": 0.98
+      },
+      "invoice_date": {
+        "value": "2026-10-01",
+        "confidence": 0.93
+      },
+      "due_date": {
+        "value": "2026-10-31",
+        "confidence": 0.95
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.95
+      },
+      "po_number": {
+        "value": null,
+        "confidence": 0.95
+      },
+      "subtotal": {
+        "value": 741,
+        "confidence": 0.96
+      },
+      "tax_rate": {
+        "value": 8,
+        "confidence": 0.99
+      },
+      "tax": {
+        "value": 59.28,
+        "confidence": 0.93
+      },
+      "total": {
+        "value": 800.28,
+        "confidence": 0.97
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "Copy paper, A4, box of 5 reams",
+            "quantity": 10,
+            "unit_price": 42,
+            "amount": 420
+          },
+          {
+            "description": "Toner cartridge, black",
+            "quantity": 3,
+            "unit_price": 89,
+            "amount": 267
+          },
+          {
+            "description": "Sticky notes, 12 pack",
+            "quantity": 12,
+            "unit_price": 4.5,
+            "amount": 54
+          }
+        ],
+        "confidence": 0.94
+      }
+    },
+    "check": null
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "file": "03-summit-it-solutions-SIT-7710.pdf",
+  "sha256": "56e9b4237a4df5002a1d18905471deb35e31446ffdcb5f82a824becea247508e",
+  "simulated": true,
+  "note": "Simulated model response generated from the sample ground truth. Replace with real responses via npm run fixtures:record.",
+  "responses": {
+    "fast": {
+      "vendor_name": {
+        "value": "Summit IT Solutions",
+        "confidence": 0.96
+      },
+      "invoice_number": {
+        "value": "SIT-7710",
+        "confidence": 0.98
+      },
+      "invoice_date": {
+        "value": "2026-10-02",
+        "confidence": 0.98
+      },
+      "due_date": {
+        "value": "2026-11-01",
+        "confidence": 0.91
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.95
+      },
+      "po_number": {
+        "value": "PO-3001",
+        "confidence": 0.96
+      },
+      "subtotal": {
+        "value": 1380,
+        "confidence": 0.96
+      },
+      "tax_rate": {
+        "value": 8,
+        "confidence": 0.9
+      },
+      "tax": {
+        "value": 110.4,
+        "confidence": 0.93
+      },
+      "total": {
+        "value": 1490.4,
+        "confidence": 0.97
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "Laptop docking station",
+            "quantity": 4,
+            "unit_price": 185,
+            "amount": 740
+          },
+          {
+            "description": "Network switch, 24 port",
+            "quantity": 1,
+            "unit_price": 640,
+            "amount": 640
+          }
+        ],
+        "confidence": 0.97
+      }
+    },
+    "check": null
+  }
+}

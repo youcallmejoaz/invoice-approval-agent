@@ -1,0 +1,68 @@
+{
+  "file": "35-maple-and-pine-print-shop-MP-3322.pdf",
+  "sha256": "77892589868dac259d7dc78971301e5f427c2fe97c77da156d90ba4f64591a24",
+  "simulated": true,
+  "note": "Simulated model response generated from the sample ground truth. Replace with real responses via npm run fixtures:record.",
+  "responses": {
+    "fast": {
+      "vendor_name": {
+        "value": "Maple & Pine Print Shop",
+        "confidence": 0.93
+      },
+      "invoice_number": {
+        "value": "MP-3322",
+        "confidence": 0.92
+      },
+      "invoice_date": {
+        "value": "2026-10-20",
+        "confidence": 0.92
+      },
+      "due_date": {
+        "value": "2026-11-19",
+        "confidence": 0.96
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.97
+      },
+      "po_number": {
+        "value": null,
+        "confidence": 0.96
+      },
+      "subtotal": {
+        "value": 570,
+        "confidence": 0.96
+      },
+      "tax_rate": {
+        "value": 8,
+        "confidence": 0.92
+      },
+      "tax": {
+        "value": 45.6,
+        "confidence": 0.97
+      },
+      "total": {
+        "value": 615.6,
+        "confidence": 0.95
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "Vinyl window lettering",
+            "quantity": 1,
+            "unit_price": 380,
+            "amount": 380
+          },
+          {
+            "description": "Table tent cards",
+            "quantity": 200,
+            "unit_price": 0.95,
+            "amount": 190
+          }
+        ],
+        "confidence": 0.97
+      }
+    },
+    "check": null
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "file": "24-harborline-logistics-HL-88140.pdf",
+  "sha256": "8a3740a175acb8e43c4ab733ad3c7477a5b6138e2265ed9234db64c46a0d6259",
+  "simulated": true,
+  "note": "Simulated model response generated from the sample ground truth. Replace with real responses via npm run fixtures:record.",
+  "responses": {
+    "fast": {
+      "vendor_name": {
+        "value": "Harborline Logistics",
+        "confidence": 0.94
+      },
+      "invoice_number": {
+        "value": "HL-88140",
+        "confidence": 0.95
+      },
+      "invoice_date": {
+        "value": "2026-10-15",
+        "confidence": 0.92
+      },
+      "due_date": {
+        "value": "2026-11-14",
+        "confidence": 0.94
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.99
+      },
+      "po_number": {
+        "value": "PO-3005",
+        "confidence": 0.92
+      },
+      "subtotal": {
+        "value": 987.5,
+        "confidence": 0.99
+      },
+      "tax_rate": {
+        "value": 0,
+        "confidence": 0.92
+      },
+      "tax": {
+        "value": 0,
+        "confidence": 0.97
+      },
+      "total": {
+        "value": 987.5,
+        "confidence": 0.98
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "Container drayage",
+            "quantity": 1,
+            "unit_price": 875,
+            "amount": 875
+          },
+          {
+            "description": "Fuel surcharge",
+            "quantity": 1,
+            "unit_price": 112.5,
+            "amount": 112.5
+          }
+        ],
+        "confidence": 0.96
+      }
+    },
+    "check": null
+  }
+}

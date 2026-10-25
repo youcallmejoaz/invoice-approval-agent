@@ -1,0 +1,68 @@
+{
+  "file": "26-clearwater-facilities-CWF-6625.pdf",
+  "sha256": "50041245d823b13733db272c6a5f1621f578df06ab2a0e59ac837b309955a5af",
+  "simulated": true,
+  "note": "Simulated model response generated from the sample ground truth. Replace with real responses via npm run fixtures:record.",
+  "responses": {
+    "fast": {
+      "vendor_name": {
+        "value": "Clearwater Facilities",
+        "confidence": 0.97
+      },
+      "invoice_number": {
+        "value": "CWF-6625",
+        "confidence": 0.95
+      },
+      "invoice_date": {
+        "value": "2026-10-16",
+        "confidence": 0.92
+      },
+      "due_date": {
+        "value": "2026-11-15",
+        "confidence": 0.93
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.99
+      },
+      "po_number": {
+        "value": null,
+        "confidence": 0.91
+      },
+      "subtotal": {
+        "value": 550,
+        "confidence": 0.94
+      },
+      "tax_rate": {
+        "value": 0,
+        "confidence": 0.93
+      },
+      "tax": {
+        "value": 0,
+        "confidence": 0.97
+      },
+      "total": {
+        "value": 550,
+        "confidence": 0.98
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "Pest control, quarterly",
+            "quantity": 1,
+            "unit_price": 210,
+            "amount": 210
+          },
+          {
+            "description": "Grease trap service",
+            "quantity": 1,
+            "unit_price": 340,
+            "amount": 340
+          }
+        ],
+        "confidence": 0.96
+      }
+    },
+    "check": null
+  }
+}

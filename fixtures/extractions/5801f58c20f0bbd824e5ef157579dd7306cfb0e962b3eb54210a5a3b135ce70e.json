@@ -1,0 +1,74 @@
+{
+  "file": "12-northgate-office-supply-NG-2041.pdf",
+  "sha256": "5801f58c20f0bbd824e5ef157579dd7306cfb0e962b3eb54210a5a3b135ce70e",
+  "simulated": true,
+  "note": "Simulated model response generated from the sample ground truth. Replace with real responses via npm run fixtures:record.",
+  "responses": {
+    "fast": {
+      "vendor_name": {
+        "value": "Northgate Office Supply",
+        "confidence": 0.93
+      },
+      "invoice_number": {
+        "value": "NG-2041",
+        "confidence": 0.95
+      },
+      "invoice_date": {
+        "value": "2026-10-06",
+        "confidence": 0.99
+      },
+      "due_date": {
+        "value": "2026-11-05",
+        "confidence": 0.94
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.98
+      },
+      "po_number": {
+        "value": null,
+        "confidence": 0.94
+      },
+      "subtotal": {
+        "value": 545,
+        "confidence": 0.93
+      },
+      "tax_rate": {
+        "value": 8,
+        "confidence": 0.98
+      },
+      "tax": {
+        "value": 43.6,
+        "confidence": 0.97
+      },
+      "total": {
+        "value": 588.6,
+        "confidence": 0.97
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "Whiteboard markers",
+            "quantity": 20,
+            "unit_price": 2.75,
+            "amount": 55
+          },
+          {
+            "description": "Filing cabinet, 3 drawer",
+            "quantity": 2,
+            "unit_price": 215,
+            "amount": 430
+          },
+          {
+            "description": "Shredder bags",
+            "quantity": 5,
+            "unit_price": 12,
+            "amount": 60
+          }
+        ],
+        "confidence": 0.94
+      }
+    },
+    "check": null
+  }
+}

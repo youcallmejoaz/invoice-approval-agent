@@ -1,0 +1,58 @@
+[
+  {
+    "id": "V01",
+    "name": "Northgate Office Supply",
+    "currency": "USD",
+    "taxRate": 8,
+    "paymentTermsDays": 30
+  },
+  {
+    "id": "V02",
+    "name": "Bluebird Cleaning Services",
+    "currency": "USD",
+    "taxRate": 0,
+    "paymentTermsDays": 15
+  },
+  {
+    "id": "V03",
+    "name": "Summit IT Solutions",
+    "currency": "USD",
+    "taxRate": 8,
+    "paymentTermsDays": 30
+  },
+  {
+    "id": "V04",
+    "name": "Greenleaf Catering Co.",
+    "currency": "USD",
+    "taxRate": 8,
+    "paymentTermsDays": 14
+  },
+  {
+    "id": "V05",
+    "name": "Harborline Logistics",
+    "currency": "USD",
+    "taxRate": 0,
+    "paymentTermsDays": 30
+  },
+  {
+    "id": "V06",
+    "name": "Brightspark Electrical",
+    "currency": "USD",
+    "taxRate": 8,
+    "paymentTermsDays": 30
+  },
+  {
+    "id": "V07",
+    "name": "Maple & Pine Print Shop",
+    "currency": "USD",
+    "taxRate": 8,
+    "paymentTermsDays": 30
+  },
+  {
+    "id": "V08",
+    "name": "Clearwater Facilities",
+    "currency": "USD",
+    "taxRate": 0,
+    "paymentTermsDays": 30
+  }
+]

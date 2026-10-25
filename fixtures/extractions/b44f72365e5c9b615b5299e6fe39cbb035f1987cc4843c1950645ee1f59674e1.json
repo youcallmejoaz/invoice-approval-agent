@@ -1,0 +1,68 @@
+{
+  "file": "22-greenleaf-catering-co-GC-5530.pdf",
+  "sha256": "b44f72365e5c9b615b5299e6fe39cbb035f1987cc4843c1950645ee1f59674e1",
+  "simulated": true,
+  "note": "Simulated model response generated from the sample ground truth. Replace with real responses via npm run fixtures:record.",
+  "responses": {
+    "fast": {
+      "vendor_name": {
+        "value": "Greenleaf Catering Co.",
+        "confidence": 0.98
+      },
+      "invoice_number": {
+        "value": "GC-5530",
+        "confidence": 0.97
+      },
+      "invoice_date": {
+        "value": "2026-10-14",
+        "confidence": 0.96
+      },
+      "due_date": {
+        "value": "2026-10-28",
+        "confidence": 0.94
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.99
+      },
+      "po_number": {
+        "value": null,
+        "confidence": 0.96
+      },
+      "subtotal": {
+        "value": 1240,
+        "confidence": 0.97
+      },
+      "tax_rate": {
+        "value": 8,
+        "confidence": 0.96
+      },
+      "tax": {
+        "value": 99.2,
+        "confidence": 0.93
+      },
+      "total": {
+        "value": 1339.2,
+        "confidence": 0.96
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "Town hall catering, per person",
+            "quantity": 60,
+            "unit_price": 19,
+            "amount": 1140
+          },
+          {
+            "description": "Beverage station",
+            "quantity": 1,
+            "unit_price": 100,
+            "amount": 100
+          }
+        ],
+        "confidence": 0.92
+      }
+    },
+    "check": null
+  }
+}

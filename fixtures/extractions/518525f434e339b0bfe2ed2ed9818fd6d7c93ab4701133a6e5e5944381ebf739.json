@@ -1,0 +1,74 @@
+{
+  "file": "25-maple-and-pine-print-shop-MP-3315.pdf",
+  "sha256": "518525f434e339b0bfe2ed2ed9818fd6d7c93ab4701133a6e5e5944381ebf739",
+  "simulated": true,
+  "note": "Simulated model response generated from the sample ground truth. Replace with real responses via npm run fixtures:record.",
+  "responses": {
+    "fast": {
+      "vendor_name": {
+        "value": "Maple & Pine Print Shop",
+        "confidence": 0.93
+      },
+      "invoice_number": {
+        "value": "MP-3315",
+        "confidence": 0.97
+      },
+      "invoice_date": {
+        "value": "2026-10-15",
+        "confidence": 0.94
+      },
+      "due_date": {
+        "value": "2026-11-14",
+        "confidence": 0.94
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.99
+      },
+      "po_number": {
+        "value": null,
+        "confidence": 0.94
+      },
+      "subtotal": {
+        "value": 1250,
+        "confidence": 0.94
+      },
+      "tax_rate": {
+        "value": 8,
+        "confidence": 0.95
+      },
+      "tax": {
+        "value": 100,
+        "confidence": 0.98
+      },
+      "total": {
+        "value": 1350,
+        "confidence": 0.97
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "Letterhead, printed",
+            "quantity": 1000,
+            "unit_price": 0.35,
+            "amount": 350
+          },
+          {
+            "description": "Envelopes, printed",
+            "quantity": 1000,
+            "unit_price": 0.3,
+            "amount": 300
+          },
+          {
+            "description": "Presentation folders",
+            "quantity": 500,
+            "unit_price": 1,
+            "amount": 500
+          }
+        ],
+        "confidence": 0.98
+      }
+    },
+    "check": null
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "file": "02-bluebird-cleaning-services-BB-0901.pdf",
+  "sha256": "35d937091b36d5ebc71481c71673011d033684b60d7aee467cc7df925d8ba719",
+  "simulated": true,
+  "note": "Simulated model response generated from the sample ground truth. Replace with real responses via npm run fixtures:record.",
+  "responses": {
+    "fast": {
+      "vendor_name": {
+        "value": "Bluebird Cleaning Services",
+        "confidence": 0.95
+      },
+      "invoice_number": {
+        "value": "BB-0901",
+        "confidence": 0.96
+      },
+      "invoice_date": {
+        "value": "2026-10-01",
+        "confidence": 0.99
+      },
+      "due_date": {
+        "value": "2026-10-16",
+        "confidence": 0.92
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.97
+      },
+      "po_number": {
+        "value": null,
+        "confidence": 0.92
+      },
+      "subtotal": {
+        "value": 1150,
+        "confidence": 0.93
+      },
+      "tax_rate": {
+        "value": 0,
+        "confidence": 0.98
+      },
+      "tax": {
+        "value": 0,
+        "confidence": 0.95
+      },
+      "total": {
+        "value": 1150,
+        "confidence": 0.96
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "Office cleaning, September",
+            "quantity": 1,
+            "unit_price": 1150,
+            "amount": 1150
+          }
+        ],
+        "confidence": 0.92
+      }
+    },
+    "check": null
+  }
+}

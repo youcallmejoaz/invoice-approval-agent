@@ -1,0 +1,68 @@
+{
+  "file": "27-redwood-marketing-studio-RMS-0042.pdf",
+  "sha256": "66e59802a15a5e1b31eec87f0b15cbf22b76fc7341f1f3472c9dfdba2eb02706",
+  "simulated": true,
+  "note": "Simulated model response generated from the sample ground truth. Replace with real responses via npm run fixtures:record.",
+  "responses": {
+    "fast": {
+      "vendor_name": {
+        "value": "Redwood Marketing Studio",
+        "confidence": 0.95
+      },
+      "invoice_number": {
+        "value": "RMS-0042",
+        "confidence": 0.96
+      },
+      "invoice_date": {
+        "value": "2026-10-16",
+        "confidence": 0.94
+      },
+      "due_date": {
+        "value": "2026-11-15",
+        "confidence": 0.97
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.96
+      },
+      "po_number": {
+        "value": null,
+        "confidence": 0.98
+      },
+      "subtotal": {
+        "value": 1650,
+        "confidence": 0.98
+      },
+      "tax_rate": {
+        "value": 8,
+        "confidence": 0.93
+      },
+      "tax": {
+        "value": 132,
+        "confidence": 0.95
+      },
+      "total": {
+        "value": 1782,
+        "confidence": 0.98
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "Social media campaign setup",
+            "quantity": 1,
+            "unit_price": 1200,
+            "amount": 1200
+          },
+          {
+            "description": "Ad creative set",
+            "quantity": 3,
+            "unit_price": 150,
+            "amount": 450
+          }
+        ],
+        "confidence": 0.91
+      }
+    },
+    "check": null
+  }
+}

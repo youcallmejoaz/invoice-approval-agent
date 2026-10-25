@@ -1,0 +1,98 @@
+{
+  "file": "15-clearwater-facilities-CWF-6618.jpg",
+  "sha256": "5dbfe4a14b665e8686b9292f4c4026502d8e15e95ec9f4e2047c3b9982c92df9",
+  "simulated": true,
+  "note": "Simulated model response generated from the sample ground truth. Replace with real responses via npm run fixtures:record.",
+  "responses": {
+    "fast": {
+      "vendor_name": {
+        "value": "Clearwater Facilities",
+        "confidence": 0.95
+      },
+      "invoice_number": {
+        "value": "CWF-6G18",
+        "confidence": 0.58
+      },
+      "invoice_date": {
+        "value": "2026-10-08",
+        "confidence": 0.97
+      },
+      "due_date": {
+        "value": "2026-11-07",
+        "confidence": 0.9
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.95
+      },
+      "po_number": {
+        "value": null,
+        "confidence": 0.91
+      },
+      "subtotal": {
+        "value": 375,
+        "confidence": 0.97
+      },
+      "tax_rate": {
+        "value": 0,
+        "confidence": 0.8
+      },
+      "tax": {
+        "value": 0,
+        "confidence": 0.98
+      },
+      "total": {
+        "value": 375,
+        "confidence": 0.71
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "HVAC filter replacement",
+            "quantity": 12,
+            "unit_price": 18.75,
+            "amount": 225
+          },
+          {
+            "description": "Maintenance visit",
+            "quantity": 1,
+            "unit_price": 150,
+            "amount": 150
+          }
+        ],
+        "confidence": 0.79
+      }
+    },
+    "check": {
+      "invoice_number": {
+        "value": "CWF-6618",
+        "confidence": 0.94
+      },
+      "total": {
+        "value": 375,
+        "confidence": 0.95
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "HVAC filter replacement",
+            "quantity": 12,
+            "unit_price": 18.75,
+            "amount": 225
+          },
+          {
+            "description": "Maintenance visit",
+            "quantity": 1,
+            "unit_price": 150,
+            "amount": 150
+          }
+        ],
+        "confidence": 0.93
+      },
+      "tax_rate": {
+        "value": 0,
+        "confidence": 0.93
+      }
+    }
+  }
+}

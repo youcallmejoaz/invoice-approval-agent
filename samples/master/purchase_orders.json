@@ -1,0 +1,194 @@
+[
+  {
+    "poNumber": "PO-3001",
+    "vendorId": "V03",
+    "currency": "USD",
+    "totalCents": 149040,
+    "lines": [
+      {
+        "description": "Laptop docking station",
+        "quantity": 4,
+        "unitPriceCents": 18500
+      },
+      {
+        "description": "Network switch, 24 port",
+        "quantity": 1,
+        "unitPriceCents": 64000
+      }
+    ],
+    "goodsReceived": {
+      "grnNumber": "GRN-4001",
+      "receivedAt": "2026-09-29",
+      "lines": [
+        {
+          "description": "Laptop docking station",
+          "quantityReceived": 4
+        },
+        {
+          "description": "Network switch, 24 port",
+          "quantityReceived": 1
+        }
+      ]
+    }
+  },
+  {
+    "poNumber": "PO-3002",
+    "vendorId": "V05",
+    "currency": "USD",
+    "totalCents": 154500,
+    "lines": [
+      {
+        "description": "Pallet freight, Riverton to Port Ellis",
+        "quantity": 1,
+        "unitPriceCents": 145000
+      },
+      {
+        "description": "Liftgate service",
+        "quantity": 1,
+        "unitPriceCents": 9500
+      }
+    ],
+    "goodsReceived": {
+      "grnNumber": "GRN-4002",
+      "receivedAt": "2026-10-01",
+      "lines": [
+        {
+          "description": "Pallet freight, Riverton to Port Ellis",
+          "quantityReceived": 1
+        },
+        {
+          "description": "Liftgate service",
+          "quantityReceived": 1
+        }
+      ]
+    }
+  },
+  {
+    "poNumber": "PO-3003",
+    "vendorId": "V03",
+    "currency": "USD",
+    "totalCents": 874800,
+    "lines": [
+      {
+        "description": "Business laptop, 14 inch",
+        "quantity": 6,
+        "unitPriceCents": 129000
+      },
+      {
+        "description": "Laptop setup and imaging",
+        "quantity": 6,
+        "unitPriceCents": 6000
+      }
+    ],
+    "goodsReceived": {
+      "grnNumber": "GRN-4003",
+      "receivedAt": "2026-10-09",
+      "lines": [
+        {
+          "description": "Business laptop, 14 inch",
+          "quantityReceived": 6
+        },
+        {
+          "description": "Laptop setup and imaging",
+          "quantityReceived": 6
+        }
+      ]
+    }
+  },
+  {
+    "poNumber": "PO-3004",
+    "vendorId": "V06",
+    "currency": "USD",
+    "totalCents": 216000,
+    "lines": [
+      {
+        "description": "Electrical panel upgrade, labour",
+        "quantity": 1,
+        "unitPriceCents": 140000
+      },
+      {
+        "description": "LED ceiling fixture",
+        "quantity": 4,
+        "unitPriceCents": 15000
+      }
+    ],
+    "goodsReceived": {
+      "grnNumber": "GRN-4004",
+      "receivedAt": "2026-10-15",
+      "lines": [
+        {
+          "description": "Electrical panel upgrade, labour",
+          "quantityReceived": 1
+        },
+        {
+          "description": "LED ceiling fixture",
+          "quantityReceived": 4
+        }
+      ]
+    }
+  },
+  {
+    "poNumber": "PO-3005",
+    "vendorId": "V05",
+    "currency": "USD",
+    "totalCents": 98750,
+    "lines": [
+      {
+        "description": "Container drayage",
+        "quantity": 1,
+        "unitPriceCents": 87500
+      },
+      {
+        "description": "Fuel surcharge",
+        "quantity": 1,
+        "unitPriceCents": 11250
+      }
+    ],
+    "goodsReceived": {
+      "grnNumber": "GRN-4005",
+      "receivedAt": "2026-10-13",
+      "lines": [
+        {
+          "description": "Container drayage",
+          "quantityReceived": 1
+        },
+        {
+          "description": "Fuel surcharge",
+          "quantityReceived": 1
+        }
+      ]
+    }
+  },
+  {
+    "poNumber": "PO-3006",
+    "vendorId": "V06",
+    "currency": "USD",
+    "totalCents": 65340,
+    "lines": [
+      {
+        "description": "Emergency call-out",
+        "quantity": 1,
+        "unitPriceCents": 35000
+      },
+      {
+        "description": "Outlet replacement",
+        "quantity": 3,
+        "unitPriceCents": 8500
+      }
+    ],
+    "goodsReceived": {
+      "grnNumber": "GRN-4006",
+      "receivedAt": "2026-10-02",
+      "lines": [
+        {
+          "description": "Emergency call-out",
+          "quantityReceived": 1
+        },
+        {
+          "description": "Outlet replacement",
+          "quantityReceived": 3
+        }
+      ]
+    }
+  }
+]

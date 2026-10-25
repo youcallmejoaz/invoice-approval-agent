@@ -1,0 +1,68 @@
+{
+  "file": "34-bluebird-cleaning-services-BB-0917-reminder.pdf",
+  "sha256": "eb1973e8f7568a4ad8999b28d292dbe35f2b2c3845aabb559a2c20b7f4aebc2b",
+  "simulated": true,
+  "note": "Simulated model response generated from the sample ground truth. Replace with real responses via npm run fixtures:record.",
+  "responses": {
+    "fast": {
+      "vendor_name": {
+        "value": "Bluebird Cleaning Services",
+        "confidence": 0.95
+      },
+      "invoice_number": {
+        "value": "BB-0917",
+        "confidence": 0.96
+      },
+      "invoice_date": {
+        "value": "2026-10-09",
+        "confidence": 0.94
+      },
+      "due_date": {
+        "value": "2026-10-24",
+        "confidence": 0.91
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.98
+      },
+      "po_number": {
+        "value": null,
+        "confidence": 0.95
+      },
+      "subtotal": {
+        "value": 745,
+        "confidence": 0.98
+      },
+      "tax_rate": {
+        "value": 0,
+        "confidence": 0.96
+      },
+      "tax": {
+        "value": 0,
+        "confidence": 0.94
+      },
+      "total": {
+        "value": 745,
+        "confidence": 0.97
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "Restroom supplies restock",
+            "quantity": 1,
+            "unit_price": 185,
+            "amount": 185
+          },
+          {
+            "description": "Floor waxing",
+            "quantity": 1,
+            "unit_price": 560,
+            "amount": 560
+          }
+        ],
+        "confidence": 0.92
+      }
+    },
+    "check": null
+  }
+}

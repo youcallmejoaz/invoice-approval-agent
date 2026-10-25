@@ -1,0 +1,98 @@
+{
+  "file": "33-harborline-logistics-HL-88152.jpg",
+  "sha256": "9ef8bd32a14f19c1bd9fc293bbdba5ea56037ad14e92129e53e47e00164b65fa",
+  "simulated": true,
+  "note": "Simulated model response generated from the sample ground truth. Replace with real responses via npm run fixtures:record.",
+  "responses": {
+    "fast": {
+      "vendor_name": {
+        "value": "Harborline Logistics",
+        "confidence": 0.94
+      },
+      "invoice_number": {
+        "value": "HL-88152",
+        "confidence": 0.66
+      },
+      "invoice_date": {
+        "value": "2026-10-19",
+        "confidence": 0.93
+      },
+      "due_date": {
+        "value": "2026-11-18",
+        "confidence": 0.93
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.96
+      },
+      "po_number": {
+        "value": null,
+        "confidence": 0.94
+      },
+      "subtotal": {
+        "value": 1230,
+        "confidence": 0.96
+      },
+      "tax_rate": {
+        "value": 0,
+        "confidence": 0.96
+      },
+      "tax": {
+        "value": 0,
+        "confidence": 0.7
+      },
+      "total": {
+        "value": 1280,
+        "confidence": 0.46
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "Freight, Port Ellis to Hillview",
+            "quantity": 1,
+            "unit_price": 1180,
+            "amount": 1180
+          },
+          {
+            "description": "Pallet wrap",
+            "quantity": 4,
+            "unit_price": 12.5,
+            "amount": 50
+          }
+        ],
+        "confidence": 0.62
+      }
+    },
+    "check": {
+      "total": {
+        "value": 1280,
+        "confidence": 0.61
+      },
+      "invoice_number": {
+        "value": "HL-88152",
+        "confidence": 0.92
+      },
+      "line_items": {
+        "value": [
+          {
+            "description": "Freight, Port Ellis to Hillview",
+            "quantity": 1,
+            "unit_price": 1180,
+            "amount": 1180
+          },
+          {
+            "description": "Pallet wrap",
+            "quantity": 4,
+            "unit_price": 12.5,
+            "amount": 50
+          }
+        ],
+        "confidence": 0.9
+      },
+      "tax": {
+        "value": 0,
+        "confidence": 0.91
+      }
+    }
+  }
+}
