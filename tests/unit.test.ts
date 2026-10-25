@@ -72,22 +72,23 @@ describe("validation", () => {
   it("flags missing required fields", () => expect(codes({ invoiceNumber: null })).toContain("missing_field"));
   it("checks a PO against the order and goods received", () => {
     const vendor = findVendor("Summit IT Solutions");
+    const lines = [
+      { description: "Laptop docking station", quantity: 4, unitPriceCents: 18500, amountCents: 74000 },
+      { description: "Network switch, 24 port", quantity: 1, unitPriceCents: 64000, amountCents: 64000 },
+    ];
     const good: InvoiceData = {
       ...base,
       vendorName: "Summit IT Solutions",
       poNumber: "PO-3001",
-      lines: [
-        { description: "Laptop docking station", quantity: 4, unitPriceCents: 18500, amountCents: 74000 },
-        { description: "Network switch, 24 port", quantity: 1, unitPriceCents: 64000, amountCents: 64000 },
-      ],
+      lines,
       subtotalCents: 138000,
       taxCents: 11040,
       totalCents: 149040,
     };
     expect(validateInvoice(good, vendor).flags).toEqual([]);
-    const overPriced = { ...good, lines: [{ ...good.lines[0], unitPriceCents: 19500, amountCents: 78000 }, good.lines[1]], subtotalCents: 142000, taxCents: 11360, totalCents: 153360 };
+    const overPriced = { ...good, lines: [{ ...lines[0], unitPriceCents: 19500, amountCents: 78000 }, lines[1]], subtotalCents: 142000, taxCents: 11360, totalCents: 153360 };
     expect(validateInvoice(overPriced, vendor).flags.map((f) => f.code)).toEqual(expect.arrayContaining(["po_price_mismatch", "po_total_exceeded"]));
-    const tooMany = { ...good, lines: [{ ...good.lines[0], quantity: 6, amountCents: 111000 }, good.lines[1]], subtotalCents: 175000, taxCents: 14000, totalCents: 189000 };
+    const tooMany = { ...good, lines: [{ ...lines[0], quantity: 6, amountCents: 111000 }, lines[1]], subtotalCents: 175000, taxCents: 14000, totalCents: 189000 };
     expect(validateInvoice(tooMany, vendor).flags.map((f) => f.code)).toContain("quantity_over_received");
     expect(validateInvoice({ ...good, poNumber: "PO-9999" }, vendor).flags.map((f) => f.code)).toContain("po_not_found");
   });
