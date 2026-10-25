@@ -1,0 +1,10 @@
+{
+  "titles": [
+    "AI Invoice Processing Agent with Approvals and Duplicate Checks",
+    "Invoice Automation: AI Extraction, Validation and Zoho Sync",
+    "AI Accounts Payable Agent for Zoho Books and Xero"
+  ],
+  "role": "AI automation developer: built the extraction, validation, duplicate checks, approvals and sync",
+  "description": "Finance teams retype supplier invoices, pay duplicates twice and lose approvals in email. A demo build on sample data: invoices arrive by upload or email, AI reads every field with a confidence score, code checks the maths and purchase order match, duplicates are blocked, rules send each invoice to auto-approval or the right person, and approved bills post to the accounting system with a retry queue. Safeguards: nothing posts unapproved, every decision needs a reason and is logged. 59 automated tests. Stack: TypeScript, Next.js, SQLite, Claude Haiku and Sonnet.",
+  "skills": ["AI Automation", "Data Extraction", "API Integration", "Claude API", "TypeScript"]
+}

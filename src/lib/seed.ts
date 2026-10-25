@@ -59,11 +59,8 @@ export async function processSamples(onEach?: (seq: number, file: string) => voi
   for (const inv of invoices) {
     const buffer = fs.readFileSync(path.join(SAMPLES_DIR, "invoices", inv.file));
     if (inv.channel === "email") {
-      const domain = inv.vendorName.toLowerCase().replace(/[^a-z]+/g, "") + ".example";
       const eml = buildEml({
         fromName: `${inv.vendorName} Billing`,
-        fromAddress: `billing@${domain}`,
-        to: "invoices@demo-company.example",
         subject: `Invoice ${inv.invoiceNumber}`,
         text: `Please find invoice ${inv.invoiceNumber} attached.`,
         fileName: inv.file,

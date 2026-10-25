@@ -39,13 +39,14 @@ export async function processInbox(dir: string): Promise<number> {
 }
 
 /** Builds a simple MIME email with one attachment, used to fill the mock inbox with sample invoices. */
-export function buildEml(opts: { fromName: string; fromAddress: string; to: string; subject: string; text: string; fileName: string; mime: string; content: Buffer; date: Date }) {
+export function buildEml(opts: { fromName: string; subject: string; text: string; fileName: string; mime: string; content: Buffer; date: Date }) {
   const boundary = "----=_sample_" + opts.fileName.replace(/[^a-z0-9]/gi, "");
   const b64 = opts.content.toString("base64").replace(/.{76}/g, "$&\r\n");
   return Buffer.from(
     [
-      `From: "${opts.fromName}" <${opts.fromAddress}>`,
-      `To: ${opts.to}`,
+      // Sample emails carry a sender name only; no addresses are stored in the repo or the demo data.
+      `From: "${opts.fromName}"`,
+      "To: undisclosed-recipients:;",
       `Subject: ${opts.subject}`,
       `Date: ${opts.date.toUTCString()}`,
       "MIME-Version: 1.0",
