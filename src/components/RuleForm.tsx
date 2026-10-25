@@ -55,8 +55,8 @@ export function RuleToggle({ id, enabled }: { id: string; enabled: boolean }) {
     <form action={action} className="inline-form switch">
       <input type="hidden" name="id" value={id} />
       <input type="hidden" name="enabled" value={enabled ? "0" : "1"} />
-      <input name="reason" required minLength={3} placeholder="Reason" aria-label="Reason" style={{ minWidth: 140 }} />
-      <button className="btn" disabled={pending}>
+      <input name="reason" required minLength={3} placeholder="Reason" aria-label="Reason" style={{ minWidth: 0, width: 120 }} />
+      <button className="btn" disabled={pending} style={{ whiteSpace: "nowrap" }}>
         {enabled ? "Turn off" : "Turn on"}
       </button>
       {state && !state.ok ? <span className="error-msg">{state.message}</span> : null}

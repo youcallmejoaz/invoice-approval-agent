@@ -10,3 +10,4 @@ playwright-report/
 tsconfig.tsbuildinfo
 next-env.d.ts
 clips/.tmp/
+public/pdf.worker.min.mjs

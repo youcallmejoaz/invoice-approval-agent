@@ -13,7 +13,7 @@ export function PdfViewer({ src, mime }: { src: string; mime: string }) {
     (async () => {
       try {
         const pdfjs = await import("pdfjs-dist");
-        pdfjs.GlobalWorkerOptions.workerSrc = new URL("pdfjs-dist/build/pdf.worker.min.mjs", import.meta.url).toString();
+        pdfjs.GlobalWorkerOptions.workerSrc = "/pdf.worker.min.mjs";
         const doc = await pdfjs.getDocument(src).promise;
         if (cancelled || !holder.current) return;
         holder.current.innerHTML = "";
