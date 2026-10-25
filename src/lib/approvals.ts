@@ -41,9 +41,24 @@ export async function approveInvoice(id: number, actor: string, reason: string) 
   if (errors.length) {
     throw new ActionError(`Fix the failed checks first (correct a misread field, or reject the invoice): ${errors.map((e) => e.message).join(" ")}`);
   }
+  if (!inv.vendor_id && inv.flags.some((f) => f.code === "new_vendor") && inv.vendor_name) {
+    addVendorFromInvoice(inv, actor, why);
+  }
   db().prepare("UPDATE invoices SET status = 'approved', decided_at = ? WHERE id = ?").run(nowIso(), id);
   logAudit({ invoiceId: id, actor, action: "approved", detail: `Approved by ${person.label} (${formatMoney(inv.total_cents, inv.currency ?? "USD")})`, reason: why });
   return postInvoice(id, actor);
+}
+
+/** Approving a new vendor's invoice is the person confirming the supplier, so it joins the vendor list. */
+function addVendorFromInvoice(inv: Invoice, actor: string, reason: string) {
+  const n = (db().prepare("SELECT COUNT(*) AS n FROM vendors").get() as { n: number }).n;
+  const id = `V${String(n + 1).padStart(2, "0")}`;
+  const terms = inv.invoice_date && inv.due_date ? Math.round((Date.parse(inv.due_date) - Date.parse(inv.invoice_date)) / 86400000) : 30;
+  db()
+    .prepare("INSERT INTO vendors (id, name, currency, tax_rate, payment_terms_days, created_at) VALUES (?, ?, ?, ?, ?, ?)")
+    .run(id, inv.vendor_name, inv.currency ?? "USD", inv.tax_rate ?? 0, terms, nowIso());
+  db().prepare("UPDATE invoices SET vendor_id = ? WHERE id = ?").run(id, inv.id);
+  logAudit({ invoiceId: inv.id, actor, action: "vendor_added", detail: `${inv.vendor_name} added to the vendor list as ${id}`, reason });
 }
 
 export function rejectInvoice(id: number, actor: string, reason: string) {
