@@ -1,0 +1,54 @@
+{
+  "name": "invoice-approval-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI invoice approval agent: reads invoices, checks the maths in code, blocks duplicates, routes approvals and posts approved bills to accounting.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "concurrently -k -n web,intake -c blue,green \"next dev -p 3000\" \"tsx scripts/intake-worker.ts\"",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "seed": "tsx scripts/seed.ts",
+    "intake": "tsx scripts/intake-worker.ts",
+    "samples:generate": "tsx scripts/generate-samples.ts",
+    "fixtures:record": "tsx scripts/record-fixtures.ts",
+    "rules:add": "tsx scripts/rules-add.ts",
+    "report:blocked": "tsx scripts/report-blocked.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "clips": "node clips/record.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.3.0",
+    "better-sqlite3": "12.11.1",
+    "mailparser": "3.12.4",
+    "next": "15.5.28",
+    "pdf-lib": "1.17.1",
+    "pdfjs-dist": "4.10.38",
+    "pdfkit": "0.17.2",
+    "react": "19.1.10",
+    "react-dom": "19.1.10",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/better-sqlite3": "7.6.13",
+    "@types/mailparser": "3.4.6",
+    "@types/node": "22.18.8",
+    "@types/pdfkit": "0.17.3",
+    "@types/react": "19.1.17",
+    "@types/react-dom": "19.1.11",
+    "concurrently": "9.2.5",
+    "sharp": "0.35.5",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "vitest": "5.0.5"
+  },
+  "overrides": {
+    "postcss": "8.5.31"
+  }
+}
