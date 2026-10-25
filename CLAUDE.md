@@ -16,6 +16,9 @@ npm run samples:generate  # regenerate samples/ and demo fixtures (dev only)
 npm run fixtures:record   # replace demo fixtures with real Claude responses (needs ANTHROPIC_API_KEY)
 npm run rules:add -- --name "..." --kind new_vendor --route manager --reason "..."
 npm run report:blocked    # print invoices blocked today and why
+node clips/record.mjs     # re-record video clips (after npm run build)
+node clips/render_proposal.mjs  # rebuild clips/proposal_cut.mp4 from clips + voice WAVs (python clips/tts.py)
+node docs/cover/render.mjs      # re-render the Upwork cover images
 ```
 
 `DEMO_MODE=1` (default) runs with zero API keys using `fixtures/extractions/`. `DEMO_MODE=0` plus `ANTHROPIC_API_KEY` calls Claude.

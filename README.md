@@ -4,6 +4,8 @@ Invoices arrive by email or upload, get read, checked, de-duplicated and routed 
 
 > A demo build on sample data. It runs end to end with no API keys (`DEMO_MODE=1`).
 
+![Invoice board: needs review, auto-approved, approved by a person, blocked, errors](docs/screenshots/board.png)
+
 ## The problem
 
 Small and mid-size finance teams still type supplier invoices into Zoho Books, Xero or QuickBooks by hand. That is slow, it invites typing mistakes, and the same invoice sent twice (or re-sent as a "second notice") gets paid twice. Approvals get lost in email threads, and nobody can say later who approved what, or why.
